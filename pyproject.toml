@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69.5.1"]
+build-backend = "setuptools.build_meta" 
+
+[project]
+name = "simsense"
+version = "0.0.1"
+authors = [
+  { name="Richard Johansson", email="richard.johansson@irf.se" },
+]
+description = "Package to handle simulations and oem using PyARTS, aswell as visualize data etc"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://gitlab.irf.se/kimra/ARTS"
